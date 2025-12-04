@@ -83,7 +83,7 @@ retriever-milvus             "uvicorn retriever_s…"   retriever-milvus        
 
 ## Sample curl commands
 
-**Note**: This microservice retrieves data from a Milvus database. If there is no data added into the database, the curl commands below will return `collection not found`. To test data retrieval, please insert some data with the [Visual Data Preparation for Retrieval service](https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/visual-data-preparation-for-retrieval/milvus/docs/user-guide/get-started.md) first. After setting up the data preparation service, you can insert, for example a directory, with the curl command:
+**Note**: This microservice retrieves data from a Milvus database. If there is no data added into the database, the curl commands below will return `collection not found`. To test data retrieval, please insert some data with the [Visual Data Preparation for Retrieval service](https://github.com/open-edge-platform/edge-ai-libraries/blob/release-2025.2.0/microservices/visual-data-preparation-for-retrieval/milvus/docs/user-guide/get-started.md) first. After setting up the data preparation service, you can insert, for example a directory, with the curl command:
 
 ```console
 curl -X POST http://localhost:$DATAPREP_SERVICE_PORT/v1/dataprep/ingest \
@@ -123,6 +123,6 @@ curl -X POST http://localhost:$RETRIEVER_SERVICE_PORT/v1/retrieval \
 ## Learn More
 
 -    Check the [API reference](./api-reference.md)
--    This microservice depends on the [multimodal embedding service](https://github.com/open-edge-platform/edge-ai-libraries/blob/main/microservices/multimodal-embedding-serving/docs/user-guide/get-started.md) for embedding extraction.
+-    This microservice depends on the [multimodal embedding service](https://github.com/open-edge-platform/edge-ai-libraries/blob/release-2025.2.0/microservices/multimodal-embedding-serving/docs/user-guide/get-started.md) for embedding extraction.
 
 

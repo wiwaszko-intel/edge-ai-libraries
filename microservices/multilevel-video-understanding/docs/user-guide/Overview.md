@@ -6,7 +6,7 @@ The overall high-level design is shown as below:
 ![Multi-level Video Understanding High-level Design](high-level_design.png)
 <center>Figure 1: Multi-level Video Understanding High-level Design</center>
 
-Among all the components, the `Multi-level Video Understanding` refers to this microservice. The `Video Chunking` is a liabraries implemented in this open-edge-platform(OEP) suites: [video-chunking-utils](https://github.com/open-edge-platform/edge-ai-libraries/tree/main/libraries/video-chunking-utils). The `Vision-Language Model Serving` and `Large Language Model Serving` are the dependent services that required by this microservice, running on OpenAI-compatibale APIs.
+Among all the components, the `Multi-level Video Understanding` refers to this microservice. The `Video Chunking` is a liabraries implemented in this open-edge-platform(OEP) suites: [video-chunking-utils](https://github.com/open-edge-platform/edge-ai-libraries/tree/release-2025.2.0/libraries/video-chunking-utils). The `Vision-Language Model Serving` and `Large Language Model Serving` are the dependent services that required by this microservice, running on OpenAI-compatibale APIs.
 
 ## Overview
 
